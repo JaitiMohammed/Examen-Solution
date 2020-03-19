@@ -7,6 +7,7 @@ import Image2 from "../../assets/Image2.jpg";
 import Image3 from "../../assets/image3.jpg";
 
 import Footer from "./footer";
+import { Link } from "react-router-dom";
 export default class main extends Component {
   render() {
     return (
@@ -17,14 +18,19 @@ export default class main extends Component {
           <div class='equal width row'>
             <div class='column'>
               <div class='ui card' id='cards'>
-                <a class='image' href='#'>
+                <span class='image'>
                   <img src={Image1} />
-                </a>
+                </span>
                 <div class='content'>
-                  <a class='header' href='#'>
-                    <button class='positive ui button'>
-                      Créez un exam pour vos étudiants{" "}
-                    </button>
+                  <a class='header'>
+                    <Link to='/profDash/create-exams'>
+                      <button
+                        style={{ width: "260px" }}
+                        class='positive ui button'
+                      >
+                        Créez un exam pour vos étudiants{" "}
+                      </button>
+                    </Link>
                   </a>
                   <div class='meta'>
                     <a>Pours les professeurs</a>
@@ -34,12 +40,15 @@ export default class main extends Component {
             </div>
             <div class='column'>
               <div class='ui card' id='cards'>
-                <a class='image' href='#'>
+                <span class='image'>
                   <img src={Image3} />
-                </a>
+                </span>
                 <div class='content'>
                   <a class='header' href='#'>
-                    <button class='positive ui button'>
+                    <button
+                      style={{ width: "260px" }}
+                      class='positive ui button'
+                    >
                       Démarrez vos examens{" "}
                     </button>
                   </a>
@@ -51,12 +60,15 @@ export default class main extends Component {
             </div>
             <div class='column'>
               <div class='ui card' id='cards'>
-                <a class='image' href='#'>
+                <span class='image'>
                   <img src={Image2} />
-                </a>
+                </span>
                 <div class='content'>
                   <a class='header' href='#'>
-                    <button class='positive ui button'>
+                    <button
+                      style={{ width: "260px" }}
+                      class='positive ui button'
+                    >
                       Pratiquez pour vos examens{" "}
                     </button>
                   </a>

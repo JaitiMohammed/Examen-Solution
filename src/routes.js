@@ -5,6 +5,8 @@ import Home from "./components/pages/HomePage/index";
 import UserCompte from "./components/pages/UserPage/index";
 import ProfUser from "./components/pages/UserPage/professeur/index";
 import EtudiantUser from "./components/pages/UserPage/etudiant/index";
+import DashProf from "./components/pages/UserPage/professeur/dashboard/index";
+//import CreateExam from "./components/pages/UserPage/professeur/dashboard/index";
 
 export default class routes extends Component {
   render() {
@@ -15,6 +17,8 @@ export default class routes extends Component {
         <Route path='/creerCompte' component={UserCompte} />
         <Route path='/etudiantCompte' component={EtudiantUser} />
         <Route path='/profCompte' component={ProfUser} />
+        <Route path='/profDash' component={DashProf} />
+        <Route path='/profDash/create-exams' />
       </div>
     );
   }

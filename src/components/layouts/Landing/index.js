@@ -11,6 +11,13 @@ export default class index extends Component {
               Les enseignants peuvent créer des examens pour leurs étudiants
             </li>
             <li>Les étudiants peuvent passer les tests à distance</li>
+            <li>
+              <strong>NB</strong> :{" "}
+              <span style={{ color: "red" }}>
+                ce site n'est pas reponsive pour le moment , connectez-vous par
+                votre ordinateur !
+              </span>
+            </li>
           </ul>
         </div>
       </div>
