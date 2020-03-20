@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Footer from "../../../HomePage/footer";
 import Logo from "../../../../assets/iconSite.png";
 import { Link } from "react-router-dom";
-
+import "./style.css";
 export default class index extends Component {
   render() {
     return (
@@ -14,7 +14,7 @@ export default class index extends Component {
             class='ui inverted menu'
           >
             <div class='ui container'>
-              <Link to='/' className='header item'>
+              <Link to='/profDash' className='header item'>
                 <img src={Logo} />
                 Dashboard Professeur
               </Link>
@@ -22,7 +22,7 @@ export default class index extends Component {
                 <div class='ui simple dropdown item'>
                   Déconnectez-vous<i class='dropdown icon'></i>
                   <div class='menu'>
-                    <Link class='item' to='/login'>
+                    <Link class='item' to='/'>
                       Log out
                     </Link>
                   </div>
@@ -30,17 +30,21 @@ export default class index extends Component {
               </div>
             </div>
           </div>
-          <div className='container'>
-            <div class='ui stackable menu'>
-              <button class='positive ui button'>Creer Examens</button>
-              <button class='positive ui button'>
-                Consulter vos étudiants
-              </button>
-
-              <div className='right menu'>
-                <button class='positive ui button'>
-                  Consulter vos étudiants
-                </button>
+          <div className='container' id='Menu2'>
+            <div class='ui inverted segment'>
+              <div class='ui inverted secondary pointing menu'>
+                <Link to={"/profDash/create-exams"}>
+                  <a class='item'>Creer Examen pour vos étudiant</a>
+                </Link>
+                <Link to='/profDash/list-students'>
+                  <a class=' item'>Listes des etudiants</a>
+                </Link>
+                <Link>
+                  <a class='item'>Récuperer les examens</a>
+                </Link>
+                <Link>
+                  <a class='item'>Affecter les notes</a>
+                </Link>
               </div>
             </div>
           </div>

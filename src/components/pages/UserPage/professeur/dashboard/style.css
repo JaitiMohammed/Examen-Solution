@@ -1,7 +1,3 @@
-.menuV {
-  height: 100vh;
-  width: 150px;
-}
-#menu1 {
-  height: 111px;
+#Menu2 .item:hover {
+  border-bottom: 2px solid yellow;
 }
