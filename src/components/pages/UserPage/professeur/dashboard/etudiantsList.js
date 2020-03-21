@@ -12,10 +12,18 @@ export default class etudiantsList extends Component {
           <div class='ui icon header'>
             <i class='excel file outline icon'></i>
             <span style={{ color: "red" }}>
-              NB : redirection vers un document Excel
+              NB : redirection le document doit être d'extension Excel
             </span>
           </div>
-          <div class='ui primary button'>Afficher la liste</div>
+          <input type='file' class='inputfile' id='embedpollfileinput' />
+
+          <label
+            for='embedpollfileinput'
+            class='ui large blue right floated button'
+          >
+            <i class='ui upload icon'></i>
+            Upload La liste
+          </label>
         </div>
       </div>
     );

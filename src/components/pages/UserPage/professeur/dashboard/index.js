@@ -1,35 +1,15 @@
 import React, { Component } from "react";
 import Footer from "../../../HomePage/footer";
-import Logo from "../../../../assets/iconSite.png";
-import { Link } from "react-router-dom";
+import Navbar from "../dashboard/layoutsDash/navbarProf";
 import "./style.css";
+import { Link } from "react-router-dom";
+
 export default class index extends Component {
   render() {
     return (
       <div>
         <div class='ui header'>
-          <div
-            style={{ marginBottom: 12, height: "200" }}
-            id='menu1'
-            class='ui inverted menu'
-          >
-            <div class='ui container'>
-              <Link to='/profDash' className='header item'>
-                <img src={Logo} />
-                Dashboard Professeur
-              </Link>
-              <div className='right menu'>
-                <div class='ui simple dropdown item'>
-                  Déconnectez-vous<i class='dropdown icon'></i>
-                  <div class='menu'>
-                    <Link class='item' to='/'>
-                      Log out
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Navbar />
           <div className='container' id='Menu2'>
             <div class='ui inverted segment'>
               <div class='ui inverted secondary pointing menu'>
@@ -42,7 +22,7 @@ export default class index extends Component {
                 <Link>
                   <a class='item'>Récuperer les examens</a>
                 </Link>
-                <Link>
+                <Link to='/profDash/affectation-note'>
                   <a class='item'>Affecter les notes</a>
                 </Link>
               </div>

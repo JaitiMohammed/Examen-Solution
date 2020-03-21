@@ -81,9 +81,15 @@ export default class createExam extends Component {
                   NB: le document doit être d'une extension .pdf
                 </span>
               </div>
-              <div class='ui primary button'>
-                Ajoutez les documents nécessaires
-              </div>
+              <input type='file' class='inputfile' id='embedpollfileinput' />
+
+              <label
+                for='embedpollfileinput'
+                class='ui large red right floated button'
+              >
+                <i class='ui upload icon'></i>
+                Upload documents
+              </label>
             </div>
             <button class='positive ui button' type='submit'>
               Validé
