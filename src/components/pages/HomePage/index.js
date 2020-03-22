@@ -14,7 +14,11 @@ export default class main extends Component {
       <>
         <Navbar />
         <Landing />
-        <div class='ui equal width grid'>
+
+        <div
+          class='ui stackable tree column grid'
+          style={{ paddingBottom: "50px" }}
+        >
           <div class='equal width row'>
             <div class='column'>
               <div class='ui card' id='cards'>

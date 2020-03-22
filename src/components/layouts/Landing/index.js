@@ -12,6 +12,7 @@ export default class index extends Component {
             </li>
             <li>Les étudiants peuvent passer les tests à distance</li>
             <li>
+              <i class='bell icon'></i>
               <strong>NB</strong> :{" "}
               <span style={{ color: "red" }}>
                 ce site n'est pas reponsive pour le moment , connectez-vous par

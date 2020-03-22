@@ -9,6 +9,7 @@ import DashProf from "./components/pages/UserPage/professeur/dashboard/index";
 import CreateExam from "./components/pages/UserPage/professeur/dashboard/createExam";
 import StudentsList from "./components/pages/UserPage/professeur/dashboard/etudiantsList";
 import AffecterNote from "./components/pages/UserPage/professeur/dashboard/affecterNote";
+import ProfileProf from "./components/pages/UserPage/professeur/dashboard/profile/index";
 export default class routes extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ export default class routes extends Component {
         <Route path='/profDash/create-exams' component={CreateExam} />
         <Route path='/profDash/list-students' component={StudentsList} />
         <Route path='/profDash/affectation-note' component={AffecterNote} />
+        <Route path='/profDahs/profile' component={ProfileProf} />
       </div>
     );
   }

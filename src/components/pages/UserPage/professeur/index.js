@@ -9,29 +9,29 @@ export default class index extends Component {
         <div className='container'>
           <h1>Compte professeur</h1>
           <div className='ui segment'>
-            <div class='ui form'>
-              <div class='two fields'>
-                <div class='field'>
+            <div className='ui form'>
+              <div className='two fields'>
+                <div className='field'>
                   <label>Nom</label>
                   <input placeholder='first name' type='text' />
                 </div>
-                <div class='field'>
+                <div className='field'>
                   <label>Prenom</label>
                   <input placeholder='last name' type='text' />
                 </div>
               </div>
-              <div class='two fields'>
-                <div class='field'>
+              <div className='two fields'>
+                <div className='field'>
                   <label>Email</label>
                   <input placeholder='your email' type='email' />
                 </div>
-                <div class='field'>
+                <div className='field'>
                   <label>Profession</label>
                   <input placeholder='ex Prof de maths' type='text' />
                 </div>
               </div>
-              <div class='two fields'>
-                <div class='field'>
+              <div className='two fields'>
+                <div className='field'>
                   <label>Université</label>
                   <select>
                     <option>-- veuillez choisre votre Université -- </option>
@@ -54,23 +54,23 @@ export default class index extends Component {
                     </option>
                   </select>
                 </div>
-                <div class='field'>
+                <div className='field'>
                   <label>Etablissement</label>
                   <input placeholder='ex FSSM' type='text' />
                 </div>
               </div>
-              <div class='two fields'>
-                <div class='field'>
+              <div className='two fields'>
+                <div className='field'>
                   <label>Tél</label>
                   <input placeholder='ex 0677xxxxxx' type='text' />
                 </div>
-                <div class='field'>
+                <div className='field'>
                   <label>Password</label>
                   <input placeholder='your password' type='password' />
                 </div>
               </div>
             </div>
-            <button class='large positive ui button'>Enregistré</button>
+            <button className='large positive ui button'>Enregistré</button>
           </div>
         </div>
         <Footer />

@@ -17,7 +17,7 @@ export default class navbar extends Component {
               Connectez-vous<i class='dropdown icon'></i>
               <div class='menu'>
                 <Link class='item' to='/login'>
-                  Login
+                  <i class='sign-in icon'></i> Login
                 </Link>
               </div>
             </div>

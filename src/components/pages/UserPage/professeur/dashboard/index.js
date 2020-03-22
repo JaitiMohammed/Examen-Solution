@@ -14,17 +14,30 @@ export default class index extends Component {
             <div class='ui inverted segment'>
               <div class='ui inverted secondary pointing menu'>
                 <Link to={"/profDash/create-exams"}>
-                  <a class='item'>Creer Examen pour vos étudiant</a>
+                  <a class='item'>
+                    <i class='file alternate outline icon'></i>Creer Examen pour
+                    vos étudiant
+                  </a>
                 </Link>
                 <Link to='/profDash/list-students'>
-                  <a class=' item'>Listes des etudiants</a>
+                  <a class=' item'>
+                    <i class='list alternate icon'></i>Listes des etudiants
+                  </a>
                 </Link>
                 <Link>
-                  <a class='item'>Récuperer les examens</a>
+                  <a class='item'>
+                    <i class='save icon'></i>Récuperer les examens
+                  </a>
                 </Link>
                 <Link to='/profDash/affectation-note'>
-                  <a class='item'>Affecter les notes</a>
+                  <a class='item'>
+                    <i class='book icon'></i>Affecter les notes
+                  </a>
                 </Link>
+                <a className='item'>
+                  <i class='bullhorn icon'></i>
+                  Lancer Annonce
+                </a>
               </div>
             </div>
           </div>

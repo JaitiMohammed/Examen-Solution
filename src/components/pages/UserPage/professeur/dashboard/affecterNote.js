@@ -23,16 +23,16 @@ export default class affecterNote extends Component {
           <div class='two fields'>
             <div class='field'>
               <label>Filière ou Option</label>
-              <input placeholder='first name' type='text' />
+              <input placeholder='filière ou option' type='text' />
             </div>
             <div class='two fields'>
               <div className='field'>
-                <label>Numéro Examen</label>
-                <input placeholder='last name' type='text' />
+                <label>Sujet Examen</label>
+                <input placeholder="sujet d'examen" type='text' />
               </div>
               <div className='field'>
                 <label>Note</label>
-                <input placeholder='last name' type='text' />
+                <input placeholder='Note' type='text' />
               </div>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default class affecterNote extends Component {
             <div class='two fields'>
               <div className='field'>
                 <label>Numéro de groupe</label>
-                <input placeholder='last name' type='text' />
+                <input placeholder='numéro de groupe' type='text' />
               </div>
               <div className='field'>
                 <label>Semestre</label>
