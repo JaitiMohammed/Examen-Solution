@@ -8,7 +8,7 @@ export default class footer extends Component {
           <div class='ui center aligned container'>
             <div class='seven wide column'>
               <h4 class='ui inverted header'>
-                DEVELOPED Y
+                DEVELOPED BY
                 <a
                   style={{ color: "red" }}
                   href='https://www.facebook.com/groups/LLP.Learning/'
