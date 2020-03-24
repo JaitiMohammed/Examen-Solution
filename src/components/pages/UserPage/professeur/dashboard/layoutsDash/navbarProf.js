@@ -16,12 +16,12 @@ export default class navbarProf extends Component {
               <img src={Logo} />
               Dashboard Professeur
             </Link>
-            <a className='item'>
+            <Link to='/profDash/nav/list-exams' className='item'>
               <i class='cloud upload icon'></i>Liste des examens transférés
-            </a>
-            <a className='item'>
+            </Link>
+            <Link to='/profDash/nav/list-students' className='item'>
               <i class='th list icon'></i>Liste de vos étudiants
-            </a>
+            </Link>
             <a className='item'>
               <i class='discourse icon'></i>déliberation
             </a>
@@ -29,7 +29,7 @@ export default class navbarProf extends Component {
               <div class='ui simple dropdown item'>
                 Déconnectez-vous<i class='dropdown icon'></i>
                 <div class='menu'>
-                  <Link to='/profDahs/profile' className='item'>
+                  <Link to='/profile' className='item'>
                     <i class='user circle icon'></i> Profile
                   </Link>
                   <Link class='item' to='/'>

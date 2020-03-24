@@ -18,9 +18,9 @@ export default class index extends Component {
               <div class='column'>
                 <div class='ui form'>
                   <div class='field'>
-                    <label>Username</label>
+                    <label>Email</label>
                     <div class='ui left icon input'>
-                      <input type='text' placeholder='Username' />
+                      <input type='email' placeholder='Email' />
                       <i class='user icon'></i>
                     </div>
                   </div>

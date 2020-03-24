@@ -5,6 +5,10 @@ import "./style.css";
 import { Link } from "react-router-dom";
 
 export default class index extends Component {
+  state = {
+    style: "",
+    isProfile: false
+  };
   render() {
     return (
       <div>
@@ -19,11 +23,6 @@ export default class index extends Component {
                     vos étudiant
                   </a>
                 </Link>
-                <Link to='/profDash/list-students'>
-                  <a class=' item'>
-                    <i class='list alternate icon'></i>Listes des etudiants
-                  </a>
-                </Link>
                 <Link>
                   <a class='item'>
                     <i class='save icon'></i>Récuperer les examens
@@ -34,10 +33,12 @@ export default class index extends Component {
                     <i class='book icon'></i>Affecter les notes
                   </a>
                 </Link>
-                <a className='item'>
-                  <i class='bullhorn icon'></i>
-                  Lancer Annonce
-                </a>
+                <Link to='/profDash/annonce'>
+                  <a className='item'>
+                    <i class='bullhorn icon'></i>
+                    Lancer Annonce
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
