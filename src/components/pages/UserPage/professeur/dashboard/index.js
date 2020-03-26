@@ -23,7 +23,7 @@ export default class index extends Component {
                     vos étudiant
                   </a>
                 </Link>
-                <Link>
+                <Link to='/profDash/recuprer-exams'>
                   <a class='item'>
                     <i class='save icon'></i>Récuperer les examens
                   </a>

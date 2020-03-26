@@ -38,31 +38,29 @@ export default class affecterNote extends Component {
           </div>
 
           <div class='two fields'>
-            <div class='two fields'>
-              <div className='field'>
-                <label>Numéro de groupe</label>
-                <input placeholder='numéro de groupe' type='text' />
-              </div>
-              <div className='field'>
-                <label>Semestre</label>
-                <select>
-                  <option>-- veuillez choisir le semestre --</option>
-                  <option>S2-S1</option>
-                  <option>S3-S4</option>
-                  <option>S6 -S5</option>
-                  <option>S7-S8</option>
-                  <option>S9-10</option>
-                  <option>S11-S12</option>
-                </select>
-              </div>
+            <div className='field'>
+              <label>Numéro de groupe</label>
+              <input placeholder='numéro de groupe' type='text' />
+            </div>
+            <div className='field'>
+              <label>Semestre</label>
+              <select>
+                <option>-- veuillez choisir le semestre --</option>
+                <option>S2-S1</option>
+                <option>S3-S4</option>
+                <option>S6 -S5</option>
+                <option>S7-S8</option>
+                <option>S9-10</option>
+                <option>S11-S12</option>
+              </select>
             </div>
           </div>
+        </div>
 
-          <div className='field'>
-            <button class='positive ui button' type='submit'>
-              Validé
-            </button>
-          </div>
+        <div className='field'>
+          <button class='positive ui button' type='submit'>
+            Validé
+          </button>
         </div>
       </div>
     );

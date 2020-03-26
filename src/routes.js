@@ -12,6 +12,7 @@ import AffecterNote from "./components/pages/UserPage/professeur/dashboard/affec
 import ProfileProf from "./components/pages/UserPage/professeur/dashboard/profile/index";
 import ListExams from "./components/pages/UserPage/professeur/dashboard/listExams/index";
 import AnnonceProf from "./components/pages/UserPage/professeur/dashboard/annonce";
+import RecuprerNote from "./components/pages/UserPage/professeur/dashboard/recuperExam";
 export default class routes extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ export default class routes extends Component {
         <Route path='/profDash/nav/list-exams' component={ListExams} />
         <Route path='/profile' component={ProfileProf} />
         <Route path='/profDash/annonce' component={AnnonceProf} />
+        <Route path='/profDash/recuprer-exams' component={RecuprerNote} />
       </div>
     );
   }

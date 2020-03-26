@@ -7,16 +7,7 @@ export default class footer extends Component {
         <div class='ui inverted vertical footer fixed segment ' id='f'>
           <div class='ui center aligned container'>
             <div class='seven wide column'>
-              <h4 class='ui inverted header'>
-                DEVELOPED BY
-                <a
-                  style={{ color: "red" }}
-                  href='https://www.facebook.com/groups/LLP.Learning/'
-                >
-                  {" "}
-                  LET'S LEARN PROGRAMMING
-                </a>
-              </h4>
+              <h3 class='ui inverted header'>Developed by Jaiti Mohammed</h3>
               <p>Copyright © - 2020</p>
             </div>
           </div>
