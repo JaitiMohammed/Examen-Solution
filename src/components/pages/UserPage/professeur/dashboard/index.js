@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default class index extends Component {
   state = {
     style: "",
-    isProfile: false
+    isProfile: false,
   };
   render() {
     return (
